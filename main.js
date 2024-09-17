@@ -50,7 +50,7 @@ function calculaMediaFinal() {
 
 function atualizaMediaFinal() {
     const mediaFinal = calculaMediaFinal()
-    document.getElementById('médiaValor').innerHTML = mediaFinal
+    document.getElementById('médiaValor').innerHTML = mediaFinal.toFixed(2)
 
     if (mediaFinal >= notaMinima) {
         document.getElementById('médiaResultado').innerHTML = '<span class="resultado aprovado"> Aprovado ! </span>'
