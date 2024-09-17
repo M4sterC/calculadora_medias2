@@ -99,3 +99,7 @@ table td img {
 .reprovado {
     background-color: red;
 }
+tfoot td {
+    font-weight: bolder;
+    background-color: #c3bfbf
+}
