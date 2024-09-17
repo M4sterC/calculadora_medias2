@@ -30,7 +30,6 @@ header h1 {
     max-width: 960px;
     width: 100%;
     margin: 0 auto;
-   
 }
 
 
@@ -97,9 +96,19 @@ table td img {
 }
 
 .reprovado {
-    background-color: red;
+    background-color: #fd3f00;
 }
 tfoot td {
     font-weight: bolder;
     background-color: #c3bfbf
+}
+.descricaoResultado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.descricaoResultado img {
+    margin-left: 8px;
+
 }
